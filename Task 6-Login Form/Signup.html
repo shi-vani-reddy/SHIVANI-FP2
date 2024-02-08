@@ -1,0 +1,166 @@
+<html>
+    <head>
+        <title>Doctor Registration</title>
+    </head>
+    <body>
+        <header>
+            <h1><center><font color="orange">Apollo hospitals</font></center></h1>
+            <p align="center">
+                <font color="red">
+                <a href="home.html">About Apollo</a> &nbsp; &nbsp; &nbsp;
+                <a href="Branch.html">Apollo Branches</a> &nbsp; &nbsp; &nbsp;
+                <a href="Service.html">Apollo Services</a> &nbsp; &nbsp; &nbsp;
+                <a href="Contactus.html">Contact Us</a> &nbsp; &nbsp; &nbsp;
+                <a href="Doctor.html">Our Doctors</a> &nbsp; &nbsp; &nbsp;
+                <a href="lab.html">Our Labs</a> &nbsp; &nbsp; &nbsp;
+                <a href="#">Doctors Registration</a> &nbsp; &nbsp; &nbsp;
+                <a href="Signin.html">Doctors Login</a> &nbsp; &nbsp; &nbsp;
+                <a href="PatientS.html">Patient's Registration</a> &nbsp; &nbsp; &nbsp;
+                <a href="PatientL.html">Patients Login</a>
+                </font>
+             </p>
+        </header>
+        <hr>
+        <form>
+            <table align="center">
+                <tr>
+                    <td><label for="id1">First Name</label></td>
+                    <td><label for="id2">Last Name</label></td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="Fname" id="id1"></td>
+                    <td><input type="text" name="Lname" id="id2"></td>
+                </tr>
+                <tr>
+                    <td><label for="id3">User Name</label></td>
+                    <td><label for="id4">Password</label></td>
+                </tr>
+                <tr>
+                    <td><input type="text" name="Uname" id="id3"></td>
+                    <td><input type="password" name="Pass" id="id4"></td>
+                </tr>
+                <tr>
+                    <td><label for="id5">Email</label></td>
+                    <td><label for="id6">Mobile No</label></td>
+                </tr>
+                <tr>
+                    <td><input type="email" name="mail" id="id5"></td>
+                    <td><input type="number" name="mobile" id="id6"></td>
+                </tr>
+                <tr>
+                    <td><label for="id7">Specialized in</label></td>
+                    <td><label for="id8">Gender</label></td>
+                </tr>
+                <tr>
+                    <td>
+                    <select name="Specializations" id="id9">
+                        <option value="spw">Please select a specialist</option>
+                        <option value="cardiology">Cardiology</option> 
+                        <option value="dentist">Dentistry</option>
+                        <option value="orthopaedic">Orthopaedic</option>
+                        <option value="dermatologist">Dermatologist</option>
+                        <option value="opthamologist">Opthamologist</option>
+                        <option value="pulmanologist">Pulmanologist</option>
+                        <option value="neurologist">Neurologist</option>
+                        <option value="nephrologist">Nephrologist</option>
+                        <option value="ent">ENT</option>
+                        <option value="prdiatrician">Pediatrician</option>
+                        <option value="psychiatrist">Psychiatrist</option>
+                        <option value="surgeon">Surgeon</option>
+                        <option value="oncologist">Oncologist</option>
+                    </select>
+                    </td>
+                    <td>
+                    <select name="gender" id="id10">
+                        <option value="please select a gender">Please select gender</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="others">Others</option>
+                    </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label id="id11">State</label></td>
+                    <td><label id="id12">City</label></td>
+                </tr>
+                <tr>
+                    <td>
+                    <select id="id13" name="country-state">
+                        <option value="">Please Select a state</option>
+                        <option value="AN">Andaman and Nicobar Islands</option>
+                        <option value="AP">Andhra Pradesh</option>
+                        <option value="AR">Arunachal Pradesh</option>
+                        <option value="AS">Assam</option>
+                        <option value="BR">Bihar</option>
+                        <option value="CH">Chandigarh</option>
+                        <option value="CT">Chhattisgarh</option>
+                        <option value="DN">Dadra and Nagar Haveli</option>
+                        <option value="DD">Daman and Diu</option>
+                        <option value="DL">Delhi</option>
+                        <option value="GA">Goa</option>
+                        <option value="GJ">Gujarat</option>
+                        <option value="HR">Haryana</option>
+                        <option value="HP">Himachal Pradesh</option>
+                        <option value="JK">Jammu and Kashmir</option>
+                        <option value="JH">Jharkhand</option>
+                        <option value="KA">Karnataka</option>
+                        <option value="KL">Kerala</option>
+                        <option value="LA">Ladakh</option>
+                        <option value="LD">Lakshadweep</option>
+                        <option value="MP">Madhya Pradesh</option>
+                        <option value="MH">Maharashtra</option>
+                        <option value="MN">Manipur</option>
+                        <option value="ML">Meghalaya</option>
+                        <option value="MZ">Mizoram</option>
+                        <option value="NL">Nagaland</option>
+                        <option value="OR">Odisha</option>
+                        <option value="PY">Puducherry</option>
+                        <option value="PB">Punjab</option>
+                        <option value="RJ">Rajasthan</option>
+                        <option value="SK">Sikkim</option>
+                        <option value="TN">Tamil Nadu</option>
+                        <option value="TG">Telangana</option>
+                        <option value="TR">Tripura</option>
+                        <option value="UP">Uttar Pradesh</option>
+                        <option value="UT">Uttarakhand</option>
+                        <option value="WB">West Bengal</option>
+                    </select>
+                    </td>
+                    <td>
+                    <select id="id14" name="cities">
+                        <option value="cty">Please select a city</option>
+                        <option value="hyd">Hyderabad</option>
+                        <option value="chn">chennai</option>
+                        <option value="del">Delhi</option>
+                        <option value="bgr">Banglore</option>
+                        <option value="mum">Mumbai</option>
+                        <option value="tvr">Thiruvananthapuram</option>
+                        <option value="vjy">vijaywada</option>
+                        <option value="imp">Imphal</option>
+                    </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label id="id15">Address</label></td>
+                    <td><label id="id16">Code</label></td>
+                </tr>
+                <tr>
+                    <td><textarea></textarea></td>
+                    <td><input type="number" id="id17" name="pin"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td align="right">
+                        <input type="submit" value="submit">
+                    </td>
+                </tr>
+            </table>
+        </form>
+        <hr>
+        <footer>
+            <center>
+            <font color="sky blue">Copyright@360Digrii</font>
+            </center>
+            </footer>            
+    </body>
+</html>
