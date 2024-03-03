@@ -1,0 +1,13 @@
+let fruits=[];
+fruits.unshift("mango");
+fruits.unshift("kiwi");
+fruits.unshift("cherry");
+fruits.push("papaya");
+fruits.push("pineapple");
+fruits.push("banana");
+console.log(fruits);
+fruits.shift();
+fruits.shift();
+fruits.pop();
+fruits.pop();
+console.log(fruits);
